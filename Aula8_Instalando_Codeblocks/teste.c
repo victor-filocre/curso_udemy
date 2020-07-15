@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include <locale.h>
 void main() {
-printf("Ola");
+setlocale(LC_ALL,"");
+printf("Olá");
 }
