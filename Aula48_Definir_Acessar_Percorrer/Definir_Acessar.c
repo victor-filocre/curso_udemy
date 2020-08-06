@@ -3,9 +3,7 @@
 #include <locale.h>
 #include <string>
 #include <iostream>
-
-using namespace std;
-int main() {
+void main() {
     // Permite o uso de acentos no código
     setlocale(LC_ALL,"");
 
